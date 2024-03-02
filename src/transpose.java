@@ -12,34 +12,5 @@ public class transpose {
         int[][] arr = new int[a][a];
 
         int[][] b = new int[a][a];
-
-        for(int i=0; i<a; i++)
-        {
-            for(int j=0; j<a; j++)
-            {
-                arr[i][j] = in.nextInt();
-                //System.out.println("\t");
-            }
-            //System.out.println("\n");
-        }
-
-        
-        for(int i=0; i<a; i++)
-        {
-            for(int j=0; j<a; j++)
-            {
-                b[i][j] = arr[j][i];
-            }
-        }
-
-        for(int i=0; i<a; i++)
-        {
-            for(int j=0; j<a; j++)
-            {
-                System.out.print(b[i][j] + "\t");
-            }
-            System.out.println();
-        }
-
    }
 }
